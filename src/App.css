@@ -1,0 +1,71 @@
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --ff-rubik: 'Rubik', sans-serif;
+  --sonic-silver: rgb(116, 116, 116);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+img,
+span,
+data,
+input,
+select,
+button,
+textarea {
+  display: block;
+}
+
+img {
+  height: auto;
+}
+
+input,
+select,
+button,
+textarea {
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-rubik);
+  font-size: 1.6rem;
+  background-color: white;
+  color: var(--sonic-silver); 
+  line-height: 2;
+}
+
