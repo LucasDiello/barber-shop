@@ -45,7 +45,7 @@
     100% { transform: translateY(0); }
   }
   
-  .header-bottom > .container {
+  .header-bottom > .containe {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,10 +61,10 @@
   }
 
   .logo .span {
-    color: var(white);
+    color: white;
     font-family: var(--ff-rubik);
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 2px;
   }

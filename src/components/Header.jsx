@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BiArrowFromLeft } from "react-icons/bi";
+import { BiArrowBack, BiArrowFromLeft } from "react-icons/bi";
 import {
   BsFillTelephoneFill,
   BsLinkedin,
@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-top">
-        <div className="container">
+        <div className="containe">
           <ul className="header-top-list">
             <li className="header-top-item">
               <BsFillTelephoneFill name="time-outline" aria-hidden="true" />
@@ -86,7 +86,7 @@ const Header = () => {
       <div className={`header-bottom ${headerOn ? "active" : ""}`}  onClick={() =>
         setIsOpen(!isOpen)
 }>
-        <div className="container">
+        <div className="containe">
           <a href="#" className="logo">
             Barbearia
             <span className="span">Lucas Diello</span>
