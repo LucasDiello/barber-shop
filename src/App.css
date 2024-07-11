@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   --ff-rubik: 'Rubik', sans-serif;
+  --ff-oswald : 'Oswald', sans-serif;
+
   --sonic-silver: rgb(116, 116, 116);
+  --indian-yellow: rgb(213, 161, 83);
+  --rich-black-fogra-39 :rgb(13, 13, 13);
 }
 
 *,
@@ -28,6 +33,13 @@ select,
 button,
 textarea {
   display: block;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: var(--sonic-silver);
 }
 
 img {
@@ -58,14 +70,34 @@ address {
 }
 
 html {
+  font-family: var(--ff-rubik);
+  font-size: 10px;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: var(--ff-rubik);
+  background-color: var(--white);
+  color: var(--sonic-silver);
   font-size: 1.6rem;
-  background-color: white;
-  color: var(--sonic-silver); 
   line-height: 2;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255,255,255);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(116, 116, 116);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+.container {
+  padding-inline: 15px;
+}
