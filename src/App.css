@@ -139,3 +139,9 @@ h3 {
 .containe {
   padding-inline: 15px;
 }
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

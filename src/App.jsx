@@ -1,4 +1,5 @@
 import './App.css'
+import Galery from './components/Galery'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Prices from './components/Prices'
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Services />
         <Prices />
+        <Galery />
       </article>
     </main>
     </>
