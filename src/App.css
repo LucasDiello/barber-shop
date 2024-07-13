@@ -8,8 +8,10 @@
   --ff-oswald: "Oswald", sans-serif;
 
   --eerie-black-1: rgb(36, 36, 36);
+  --eerie-black-2_85: rgb(31, 31, 31, 0.85);
   --sonic-silver: rgb(116, 116, 116);
   --indian-yellow: rgb(213, 161, 83);
+  --indian-yellow_10: rgb(213, 161, 83, 0.1);
   --rich-black-fogra-39: rgb(13, 13, 13);
   --rich-black-fogra-39_50: rgb(13, 13, 13, 0.5);
 }

@@ -9,7 +9,7 @@ import { IoMdColorFill } from "react-icons/io";
 const Services = () => {
   return (
     <section className="section service" id="services" aria-label="services">
-      <div className="container">
+      <div className="containe">
         <h2 className="h2 section-title text-center">
           Serviço que nós provemos!
         </h2>
@@ -100,7 +100,6 @@ const Services = () => {
             <div className="service-card">
               <div className="card-icon">
               <FaSpa name="spa-icon"/>
-
               </div>
 
               <h3 className="h3">
