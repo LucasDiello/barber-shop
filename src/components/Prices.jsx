@@ -133,7 +133,6 @@ const Prices = () => {
           <ul className="grid-list">
             {filteredItems.map((item, index) => (
               <li>
-                {console.log(filteredItems)}
                 <div className="pricing-card">
                   <div
                     alt={item.title}
