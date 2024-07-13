@@ -1,4 +1,5 @@
 import './App.css'
+import Appointment from './components/Appointment'
 import Galery from './components/Galery'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -16,6 +17,7 @@ function App() {
         <Services />
         <Prices />
         <Galery />
+        <Appointment />
       </article>
     </main>
     </>

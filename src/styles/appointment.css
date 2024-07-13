@@ -1,0 +1,76 @@
+.appoin { padding-block-start: 0; }
+
+.appoin-card .card-banner { display: none; }
+
+.appoin-card .card-content {
+  background-color: var(--indian-yellow);
+  padding: 80px 15px;
+  text-align: center;
+  color: white;
+}
+
+.appoin-card .section-title { color: white; }
+
+.appoin-card .section-text { margin-block: 15px 55px; }
+
+.input-field {
+  background-color: white;
+  color: rgb(72, 79, 86);
+  min-height: 56px;
+  padding-inline: 25px;
+  border-radius: 5px;
+  margin-block-end: 20px;
+  outline: none;
+  outline-offset: 0;
+}
+
+.input-field:focus { outline: 3px solid rgb(0,0,0,0.3); }
+
+select.input-field { appearance: none; }
+
+select.input-field,
+.input-field::placeholder,
+.input-field.date {
+  font-family: var(--ff-oswald);
+  color: var(--eerie-black-1);
+  font-weight: 500;
+}
+
+.input-field > option {
+  color: var(--sonic-silver);
+  font-family: var(--ff-rubik);
+}
+
+.input-field.date { text-transform: uppercase; }
+
+.input-field::-webkit-calendar-picker-indicator { opacity: 0.85; }
+
+textarea.input-field {
+  padding-block: 15px;
+  min-height: 100px;
+  height: 120px;
+  max-height: 150px;
+  resize: vertical;
+}
+
+.form-btn {
+  color: white;
+  font-family: var(--ff-oswald);
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid white;
+  padding: 13px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+.form-btn:is(:hover, :focus) {
+  background-color: white;
+  color: var(--eerie-black-1);
+}

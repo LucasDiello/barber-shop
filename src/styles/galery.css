@@ -78,7 +78,7 @@
   background-color: white;
   color: var(--indian-yellow);
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 6px 16px;
   border-radius: 5px;
   margin-block-start: 12px;
   transition: 0.5s ease;
@@ -87,8 +87,4 @@
 .gallery-card .card-btn:is(:hover, :focus) {
   background-color: var(--indian-yellow);
   color: white;
-}
-
-.img-holder {
-  overflow: hidden;
 }
