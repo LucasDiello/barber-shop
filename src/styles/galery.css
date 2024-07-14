@@ -26,7 +26,7 @@
   background-size: cover;
 }
 
-.img-galery {
+.img-gallery {
   height: 350px;
 }
 
@@ -43,11 +43,11 @@
   margin-bottom: 30px;
 }
 
-.gallery-card .card-banner .img-galery {
+.gallery-card .card-banner .img-gallery {
   transition: 0.5s ease;
 }
 
-.gallery-card:hover .card-banner .img-galery {
+.gallery-card:hover .card-banner .img-gallery {
   transform: scale(1.1);
 }
 

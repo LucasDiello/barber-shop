@@ -31,7 +31,7 @@ const Galery = () => {
             <figure className="card-banner img-holder">
 
                 <div
-                  className="img-galery galery1"
+                  className="img-gallery galery1"
                 />
                 </figure>
               <div className="card-content">
@@ -50,7 +50,7 @@ const Galery = () => {
             <div className="gallery-card">
                 <figure className="card-banner img-holder">
                 <div
-                  className="img-galery galery2"
+                  className="img-gallery galery2"
                 />
                 </figure>
 
@@ -72,7 +72,7 @@ const Galery = () => {
                 className="card-banner img-holder"
               >
                 <div
-                  className="img-galery galery3"
+                  className="img-gallery galery3"
                 />
               </figure>
 
@@ -95,7 +95,7 @@ const Galery = () => {
                 
               >
                 <div
-                  className="img-galery galery4"
+                  className="img-gallery galery4"
                 />
               </figure>
 
