@@ -1,5 +1,6 @@
 import './App.css'
 import Appointment from './components/Appointment'
+import Footer from './components/Footer'
 import Galery from './components/Galery'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -20,6 +21,7 @@ function App() {
         <Appointment />
       </article>
     </main>
+    <Footer/>
     </>
   )
 }

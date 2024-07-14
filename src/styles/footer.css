@@ -1,0 +1,134 @@
+.footer-img {
+  background-image: url(../assets/images/footer-bg.png);
+}
+.footer {
+  background-color: var(--eerie-black-2);
+  padding-block-end: 30px;
+}
+
+.footer-top {
+  margin-block-end: 65px;
+}
+
+.footer-brand {
+  border: 1px solid var(--indian-yellow);
+  margin-block-end: 70px;
+}
+
+.footer .logo {
+  text-align: center;
+  padding: 25px;
+  border-block-end: 1px solid var(--indian-yellow);
+}
+
+.footer .input-wrapper {
+  background-color: white;
+  position: relative;
+  margin: 25px;
+  padding: 15px;
+}
+
+.footer .input-wrapper:focus-within {
+  outline: 3px solid white;
+}
+
+.footer .email-field {
+  text-align: center;
+  margin-block-end: 15px;
+  color: inherit;
+  outline: none;
+}
+
+.footer .btn {
+  max-width: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-link-box {
+  display: grid;
+  gap: 50px;
+}
+
+.footer-list-title {
+  color: var(--indian-yellow);
+  font-family: var(--ff-oswald);
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-block-end: 30px;
+}
+
+
+.footer-link,
+.blog-card,
+.blog-card .card-date,
+.footer-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  color: white;
+  gap: 10px;
+  margin-block-start: 8px;
+  transition: 0.25s ease;
+}
+
+
+.blog-card {
+  gap: 25px;
+  margin-block-start: 20px;
+}
+
+.blog-card .card-banner {
+  flex-shrink: 0;
+}
+
+.blog-card .card-title {
+  color: white;
+  font-family: var(--ff-oswald);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-block-end: 5px;
+  transition: 0.25s ease;
+}
+
+.blog-card .card-title:is(:hover, :focus),
+a.contact-link:is(:hover, :focus),
+.footer-link:is(:hover, :focus) {
+  color: var(--indian-yellow);
+}
+
+.blog-card .card-date {
+  gap: 5px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+.footer-list-item {
+  align-items: flex-start;
+  gap: 10px;
+  margin-block-start: 10px;
+}
+
+
+.contact-link {
+  color: white;
+  transition: 0.25s ease;
+}
+
+
+.footer-bottom {
+  background-color: var(--eerie-black-2);
+  text-align: center;
+  padding: 15px;
+}
+
+.copyright-link {
+  display: inline-block;
+  color: var(--indian-yellow);
+}

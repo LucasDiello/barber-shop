@@ -42,7 +42,7 @@ const priceItems = [
     category: "beauty-spa",
   },
   {
-    title: "Facial & Lavagem Facial",
+    title: "Lavagem Facial",
     text: "Limpo e simples, 30-40 minutos",
     price: "$63",
     imgClass: "price6",
