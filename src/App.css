@@ -150,3 +150,22 @@ h3 {
 .img-holder {
   overflow: hidden;
 }
+
+.back-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  background-color: rgb(214, 151, 56);
+  color: white;
+  font-size: 20px;
+  padding-inline: 10px ;
+  border-radius: 5px;
+  z-index: 4;
+  transition: 0.25s ease;
+}
+
+.back-top-btn.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
+}
