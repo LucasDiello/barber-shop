@@ -8,7 +8,7 @@ import { IoMdColorFill } from "react-icons/io";
 
 const Services = () => {
   return (
-    <section className="section service" id="services" aria-label="services">
+    <section className="section service has-before" id="services" aria-label="services">
       <div className="containe">
         <h2 className="h2 section-title text-center">
           Serviço que nós provemos!

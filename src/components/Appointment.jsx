@@ -61,7 +61,8 @@ const Appointment = () => {
                   <option value="Selecione a categoria">Selecione a categoria</option>
                   <option value="Beleza e spa">Beleza e spa</option>
                   <option value="Massagem corporal">Massagem corporal</option>
-                  <option value="Barbearia e Facial">Barbearia e Facial</option>
+                  <option value="Barba e Cabelo">Barba e Cabelo</option>
+                  <option value="Corte de cabelo">Corte de cabelo</option>
                   <option value="Coloração de cabelo">Coloração de cabelo</option>
                 </select>
               </div>

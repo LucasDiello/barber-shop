@@ -227,6 +227,9 @@
   
     .service .grid-list {display: grid; grid-template-columns: repeat(3, 1fr); }
   
+    .service-card {
+        margin-right: 20px;
+    }
   
     .pricing .grid-list { display:grid; grid-template-columns: 1fr 1fr; }
   
@@ -289,6 +292,10 @@
 
     .hero-title,
     .hero-text { max-width: 680px; }
+
+    .hero-text {
+        font-size: 1.5rem;
+    }
   
     .filter-btn { min-width: 178px; }
   
