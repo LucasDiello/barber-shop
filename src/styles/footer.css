@@ -11,14 +11,14 @@
 }
 
 .footer-brand {
-  border: 1px solid var(--indian-yellow);
+  border: 1px solid var(--olive-green);
   margin-block-end: 70px;
 }
 
 .footer .logo {
   text-align: center;
   padding: 25px;
-  border-block-end: 1px solid var(--indian-yellow);
+  border-block-end: 1px solid var(--olive-green);
 }
 
 .footer .input-wrapper {
@@ -51,7 +51,7 @@
 }
 
 .footer-list-title {
-  color: var(--indian-yellow);
+  color: var(--olive-green);
   font-family: var(--ff-oswald);
   font-size: 1.8rem;
   font-weight: 600;
@@ -98,7 +98,7 @@
 .blog-card .card-title:is(:hover, :focus),
 a.contact-link:is(:hover, :focus),
 .footer-link:is(:hover, :focus) {
-  color: var(--indian-yellow);
+  color: var(--olive-green);
 }
 
 .blog-card .card-date {
@@ -130,5 +130,5 @@ a.contact-link:is(:hover, :focus),
 
 .copyright-link {
   display: inline-block;
-  color: var(--indian-yellow);
+  color: var(--olive-green);
 }

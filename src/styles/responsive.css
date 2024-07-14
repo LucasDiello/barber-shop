@@ -264,3 +264,39 @@
     }
   
   }
+
+  @media (min-width: 1200px) {
+
+    .containe { max-width: 1350px; }
+    
+    .h1 {
+        font-size: 8rem;
+    }
+
+    .header-top { max-width: 1350px; }
+    
+    .header-bottom { padding-block: 30px; }
+
+    .header-top-list { gap: 50px; }
+  
+    .header-top-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .header-top-item:nth-child(2) { margin-inline-end: auto; }
+
+    .hero-title,
+    .hero-text { max-width: 680px; }
+  
+    .filter-btn { min-width: 178px; }
+  
+    .gallery .grid-list { grid-template-columns: repeat(4, 1fr); }
+  
+  
+    .appoin-card .card-content { flex-grow: 1; }
+  
+    .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
+
+  }

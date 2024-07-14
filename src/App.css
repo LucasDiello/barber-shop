@@ -11,7 +11,7 @@
   --eerie-black-2: rgb(31, 31, 31);
   --eerie-black-2_85: rgb(31, 31, 31, 0.85);
   --sonic-silver: rgb(116, 116, 116);
-  --indian-yellow: rgb(213, 161, 83);
+  --olive-green: rgb(111, 117, 55);
   --indian-yellow_10: rgb(213, 161, 83, 0.1);
   --rich-black-fogra-39: rgb(13, 13, 13);
   --rich-black-fogra-39_50: rgb(13, 13, 13, 0.5);
@@ -155,17 +155,17 @@ h3 {
   position: fixed;
   bottom: 10px;
   right: 20px;
-  background-color: rgb(214, 151, 56);
+  background-color: var(--olive-green);
   color: white;
   font-size: 20px;
   padding-inline: 10px ;
   border-radius: 5px;
   z-index: 4;
   transition: 0.25s ease;
+  
 }
 
-.back-top-btn.active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(-10px);
+.back-top-btn:active {
+    transform: scale(0.9);
+    transform: translateY(-20px);
 }

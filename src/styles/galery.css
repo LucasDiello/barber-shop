@@ -76,7 +76,7 @@
 
 .gallery-card .card-btn {
   background-color: white;
-  color: var(--indian-yellow);
+  color: var(--olive-green);
   font-size: 18px;
   padding: 6px 16px;
   border-radius: 5px;
@@ -85,6 +85,6 @@
 }
 
 .gallery-card .card-btn:is(:hover, :focus) {
-  background-color: var(--indian-yellow);
+  background-color: var(--olive-green);
   color: white;
 }

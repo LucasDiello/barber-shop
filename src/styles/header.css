@@ -20,7 +20,7 @@
 }
 
 .header-top-list .social-link:is(:hover, :focus) {
-    color: var(--indian-yellow);
+    color: var(--olive-green);
 }
 
 .header-bottom {
@@ -52,7 +52,7 @@
   }
 
   .logo {
-    color: var(--indian-yellow);
+    color: var(--olive-green);
     font-family: var(--ff-oswald);
     font-size: 2.7rem;
     font-weight: 600;
@@ -114,5 +114,5 @@
 }
 
 .navbar-link:is(:hover, :focus) {
-    color: var(--indian-yellow);
+    color: var(--olive-green);
 }

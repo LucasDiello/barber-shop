@@ -5,13 +5,17 @@
   background-position: center;
 }
 
+.hero {
+  height: 100vh;
+}
+
 .section {
   padding-block: 80px;
 }
 
 .btn {
   color: white;
-  background-color: var(--indian-yellow);
+  background-color: var(--olive-green);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -54,7 +58,7 @@
 .hero::before {
   inset: 0;
   background-color: var(--rich-black-fogra-39_50);
-  mix-blend-mode: luminosity;
+  mix-blend-mode: multiply;
   z-index: -1;
 }
 
