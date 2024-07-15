@@ -4,10 +4,10 @@ Foi desenvolvida uma interface para oferecer uma plataforma digital que facilite
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/LucasDiello/barber-shop)
 <div class="display:grid">
-<img src="/src/assets/images/barber1.png" alt="drawing" width="450" />
-<img src="/src/assets/images/barber2.png" alt="drawing" width="450" />
-<img src="/src/assets/images/barber3.png" alt="drawing" width="450" />
-<img src="/src/assets/images/barber4.png" alt="drawing" width="450" />
+<img src="/src/assets/images/barber1.png" alt="drawing" width="400" />
+<img src="/src/assets/images/barber2.png" alt="drawing" width="400" />
+<img src="/src/assets/images/barber3.png" alt="drawing" width="400" />
+<img src="/src/assets/images/barber4.png" alt="drawing" width="400" />
 </div>
 
 ## Detalhes
