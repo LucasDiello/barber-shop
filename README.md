@@ -41,4 +41,4 @@ npm run dev
 ```
 
 ## Caso Prefêrencia acesse
-https://lucasbarba.netlify.app
+[www.lucasbarba.com](https://lucasbarba.netlify.app)
